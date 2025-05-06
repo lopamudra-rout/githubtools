@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: nit.GITProj01.AppTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s -- in nit.GITProj01.AppTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.131 s -- in nit.GITProj01.AppTest

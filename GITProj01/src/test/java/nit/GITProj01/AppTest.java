@@ -1,7 +1,10 @@
 package nit.GITProj01;
 
+
+
+
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
@@ -28,7 +31,12 @@ public class AppTest {
     	int actual=app.sum(-4, -4);
         assertEquals(expected,actual);
     }
-    
-    
+    @Test
+    public void testWithNegative1() {
+    	App app=new App();
+    	int expected=0;
+    	int actual=app.sum(0 ,0);
+        assertEquals(expected,actual);
+    }
     
 }
